@@ -1,0 +1,17 @@
+{
+  "realm": "local-dev",
+  "auth-server-url": "http://127.0.0.1:8081",
+  "resource": "spring-keycloak-test",
+  "credentials": {
+    "secret": "bHTT1TBUkEl0zGmZvPVCXS0eo7IY6fa0"
+ },
+  "paths" : [
+	{
+		"path": "/swagger-ui/*",
+		"enforcement-mode": "DISABLED"
+	},{
+		"path": "/v3/api-docs/*",
+		"enforcement-mode": "DISABLED"
+	}
+	]
+}
